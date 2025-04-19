@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atvidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Login</h1>
+    <form id="loginForm">
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="exemplo@gmail.com" required>
+        </div>
+<p></p>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Nome" required>            
+        </div>
+
+        <div class="form-group">
+            <p></p>
+            <label for="telefone">Telefone:</label>
+            <input type="number" id="telefone" placeholder="(81) 99331-1370" required>  
+        </div>
+
+<p></p>
+        <button type="submit">Logar</button>
+        <p>Não tem cadastro?<a href="cadastro.html">Cadastre-se</a></p>
+        <p id="loginError" class="error-message"></p>
+    </form>
+    </div>
+    <p><abbr title="George,Cauã,Verissimo"><small>GCV</small></abbr></p>
+    <script src="script.js"></script>
+</body>
+</html>

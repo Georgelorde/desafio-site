@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de objetos perdidos</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label>Anexar Foto:</label>
+                <input type="file" id="foto" name="foto">
+            </div>
+<p></p>
+            <div class="form-group">
+            <label>Descrição de ocorrência:</label>
+            <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea>
+            </div>
+<p></p>
+            <div class="form-group">        
+                <label>Local da<br> ocorrência:</label>
+                <select id="local" name="local">
+                    <option value="0"></option>
+                    <option value="1">Setor A</option>
+                    <option value="2">Setor B</option>
+                    <option value="3">Setor C</option>
+                    <option value="4">Setor D</option>
+                    <option value="5">Setor E</option>
+                </select>
+
+            </div>
+        </form>
+
+        <button id="ocorrencia">Enviar</button>
+            <a href="login.html">login</a>
+            <p id="menssage"></p>
+    </div>
+    <footer>
+        <p>Quer saber mais do nosso site? <a href="telaBonus.html">Clique aqui</a></p>
+    </footer>
+    <script src="cadastroOBJP.js"></script>
+</body>
+</html>

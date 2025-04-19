@@ -1,0 +1,105 @@
+/* Fundo geral escuro e misterioso */
+*{
+  box-sizing: border-box;
+}
+body {
+    background-color: #0f1115;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #00030f, #4b4491);
+  }
+  
+  /* Container central com estilo de terminal */
+  .container {
+    width: 90%;
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: #1b1f27;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.1);
+  }
+  
+  /* Título com efeito digital */
+  h1, h2 {
+    text-align: center;
+    color: #00ffe1;
+    text-shadow: 0 0 5px #00ffe1;
+  }
+  
+  /* Campos de formulário */
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    width: 150px;
+    margin-right: 15px;
+    text-align: right;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    flex: 1;
+    border-radius: 5px;
+    background-color: #1b1f27;
+    margin: 1px;
+    padding-left: 5px;
+    padding: 8px;
+    color: #ffff;
+    width: 90%;
+  }
+  
+
+  button {
+    display: block;
+    margin: 0 auto;
+    background-color: #00ffe1;
+    color: #0f1115;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  button:hover {
+    background-color: #00c4af;
+  }
+  
+
+  a {
+    color: #00ffe1;
+    text-decoration: none;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Erro ou mensagens */
+  .error-message {
+    color: #ff4e4e;
+    font-weight: bold;
+  }
+  p{
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  abbr{
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
